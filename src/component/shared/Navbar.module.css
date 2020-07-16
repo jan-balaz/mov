@@ -1,0 +1,21 @@
+@import '../../vars.css';
+
+.container {
+  border-bottom: 1px solid var(--color-primary);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+a:link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 1.3em;
+}
+a:visited, a:hover, a:active {
+  color: var(--color-primary);
+}
+
+.linksContainer {
+  display: flex;
+  justify-content: space-between;
+}

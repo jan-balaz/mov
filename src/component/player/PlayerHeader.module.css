@@ -1,0 +1,38 @@
+@import '../../vars.css';
+
+.container {
+  position: absolute;
+  top: 0;
+  width: calc(100% - 10px);
+  transition: opacity cubic-bezier(.4,0,.6,1) .6s;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 60px;
+  background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.title {
+  display: inline-block;
+  color: var(--color-primary-light);
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+.closeButton {
+  color: var(--color-primary-light);
+  white-space: nowrap;
+  padding-left: 5px;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+.contentContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}

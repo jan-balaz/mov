@@ -1,0 +1,28 @@
+@import '../../vars.css';
+
+.container {
+  overflow-x: auto;
+  display: flex;
+}
+
+.title {
+  font: 1.5em var(--font-family-default);
+  padding: 20px 5px;
+  display: inline-block;
+}
+
+.container::-webkit-scrollbar {
+  height: 5px;
+}
+
+.container::-webkit-scrollbar-track {
+  background: var(--color-secondary-light); 
+}
+ 
+.container::-webkit-scrollbar-thumb {
+  background: var(--color-primary-light); 
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary); 
+}

@@ -1,0 +1,31 @@
+@import '../../vars.css';
+
+.container {
+  display: inline-block;
+  position: relative;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 185px;
+  height: 277px;
+}
+
+.titleContainer {
+  position: absolute;
+  bottom: 0;
+  height: 50%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+}
+
+.title {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  color: var(--color-primary);
+  font: 1em var(--font-family-default);
+}
+
+.poster {
+  width: 185px;
+  height: 277px;
+}

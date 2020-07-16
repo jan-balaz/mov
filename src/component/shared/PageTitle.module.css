@@ -1,0 +1,6 @@
+@import '../../vars.css';
+
+.title {
+  color: var(--color-primary);
+  font: 3em var(--font-family-default);
+}

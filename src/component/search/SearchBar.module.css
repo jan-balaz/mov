@@ -1,0 +1,29 @@
+@import '../../vars.css';
+
+.container {
+  border: 1px solid var(--color-primary);
+  padding: 5px;
+  display: flex;
+  height: 30px;
+}
+
+.input {
+  flex: 1;
+  font-size: 1.1em;
+  min-width: 0;
+}
+
+.button {
+  color: var(--color-primary-light);
+  background-color: var(--color-secondary-light);
+  border: none;
+  width: 80px;
+  font-size: 1.1em;
+  outline: 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .button {
+    width: 140px;
+  }
+}
